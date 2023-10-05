@@ -211,7 +211,7 @@ yarn parcel build src/index.html
 
 > Explore the “dist” folder. Explain what is this folder.
 
-The dist folder is typically the output directory where the bundled and optimized files are placed after you build your project. 
+The dist folder is the output directory where the bundled and optimized files are placed after you build the project. 
 
 > Explain the different files generated in dist folder. What are these files? Why they are named the way they are?
 
