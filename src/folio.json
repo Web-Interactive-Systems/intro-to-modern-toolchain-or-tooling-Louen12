@@ -1,3 +1,45 @@
 {
-    "hello_cat": "Meou"
-}
+    "informations": {
+        "firstname":"Louen", "lastname":"LE GAC", "author":"Louen LE GAC", "birthday":"2002-11-27"
+    },
+    "interests": [
+        {
+            "name":"Football",
+            "description":"Des gens qui tir dans un ballon",
+            "tools":["cage", "ballon"]
+        },
+        {
+            "name":"Formule 1",
+            "description":"Vroum Vroum les voitures",
+            "tools":["F1", "pneu", "ecurie"]
+        }
+    ],
+    "skills": [
+        {
+            "name":"Courrir",
+            "description":"tap, tap, tap..."
+        },
+        {
+            "name":"Courrir",
+            "description":"tap, tap, tap..."
+        },
+        {
+            "name":"Courrir",
+            "description":"tap, tap, tap..."
+        }
+    ],
+    "projects": [
+        {
+            "name":"marathon",
+            "description":"faire 40 km"
+        },
+        {
+            "name":"marathon",
+            "description":"faire 40 km"
+        },
+        {
+            "name":"marathon",
+            "description":"faire 40 km"
+        }
+    ]
+  }

@@ -1,5 +1,16 @@
 import folio from "./folio.json";
+import { formatDistanceToNow } from "date-fns";
 
-var a = 1;
+const containerEl = document.getElementById("container");
+containerEl.textContent = JSON.stringify(folio, null, 2);
 
-console.log("Hello Cat:", folio.hello_cat);
+let state ={};
+state.birthday = `${formatDistanceToNow(new Date(folio.informations.birthday))} old`;
+
+const BTH = document.getElementById("info");
+BTH.textContent = state.birthday;
+
+
+
+
+
